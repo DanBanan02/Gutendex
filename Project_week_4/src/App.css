@@ -1,0 +1,822 @@
+
+:root
+{
+  background-color: black;
+
+  user-select: none;
+}
+
+.Name_div
+{
+  color: #1fa926;
+}
+
+.Title_div
+{
+  color: greenyellow;
+}
+
+.Champion_headerline
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+
+.Champion_header
+{
+  border-radius: 200px;
+
+  display: flex;
+  gap: 24px;
+}
+
+.Champion_header_information
+{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Role
+{
+  display: flex;
+
+}
+
+.Role_
+{
+  margin-right: 8px;
+  color: #fffefd;
+
+  font-family: cursive;
+}
+
+.Role_text
+{
+  font-family: cursive;
+}
+
+.Champion_title
+{
+  padding-top: 2px;
+  padding-bottom: -3px;
+}
+
+.Search_Champion
+{
+  border-radius: 8px;
+  border-width: 4px;
+  border-style:double;
+  font-size: 24px;
+
+  margin-bottom: 2rem;
+  margin-left: 28rem;
+
+  padding-left: 5px;
+  padding-right: 5px;
+
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+
+}
+
+.Main_h1
+{
+  font-family: cursive;
+  font-size: 80px;
+
+color: #FFFFFF;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px hsl(190, 100%, 50%), 0 -10px 20px hsl(205, 100%, 50%), 0 -18px 40px #0008ff;
+  
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 3rem;
+}
+.Core_div
+{
+  color: blue;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+.Main_div
+{
+
+  background-color: black;
+  
+  color: blue;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(6, 1fr);
+
+    gap: 0.8rem;
+
+
+}
+
+.Image_icon
+{
+  border-radius: 66px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: oklab(8.072% 0.02891 0.01617);
+
+  user-select: none;
+}
+
+.Image_icon:hover
+{
+  border-color: #242bbc;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.Portrait_box
+{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 48px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: lab(18.22% 47.85 -67.88);
+
+  margin-bottom: 0.1rem;
+
+  padding: 10px;
+  background-image: url("./assets/champ_select.jpg");
+  
+  background-size: contain;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: 92% auto;
+}
+
+p
+{
+  color: red;
+}
+
+h2
+{
+  color:#0008ff;
+}
+
+h1
+{
+  color: orange;
+}
+
+.Champion_details
+{
+  background-image: url("./assets/body_league.jpg");
+
+  background-size: contain;
+
+  background-position: center;
+
+  background-repeat: repeat;
+
+  background-size: 7.5% auto;
+}
+
+.Champion_details_image
+{
+  border-radius: 90px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: hsl(129, 92%, 24%);
+
+  margin-top: 25px;
+  margin-bottom: 15px;
+
+}
+.Champion_details_image:hover
+{
+  border-color: #2fff4e;
+}
+
+.Name_Title-div
+{
+  display: flex;
+
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.Collective_setup
+{
+  display: flex;
+
+  gap: 20px;
+
+  align-items: flex-start;
+
+  
+}
+
+.Champion_stats
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: hsl(71, 100%, 50%);
+  border-style: solid;
+
+  padding: 8px;
+
+  margin-bottom: 120px;
+
+  background-color: hsl(237, 90%, 11%);
+}
+
+
+.Champion_information
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: hsl(71, 100%, 50%);
+  border-style: solid;
+
+  padding: 8px;
+
+  margin-bottom: 8px;
+
+  background-color: hsl(237, 90%, 11%);
+}
+
+.Champion_passive
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: hsl(71, 100%, 50%);
+  border-style: solid;
+
+  padding: 8px;
+
+  margin-right: 20rem;
+  margin-bottom: 8px;
+
+  background-image: url("./assets/lol_background.jpg");
+  
+  background-size: contain;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: 100% auto;
+}
+
+.Abilities_title
+{
+  font-size: 60px;
+  margin-bottom: 4px;
+}
+
+/* .Champion_abilities
+{
+
+}
+
+.Stat_text
+{
+
+} */
+
+.Line
+{
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+.Ability_section.Ability_Q
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: hsl(71, 100%, 50%);
+  border-style: solid;
+
+  padding: 8px;
+
+  margin-right: 20rem;
+  margin-bottom: 42px;
+
+  background-image: url("./assets/lol_background.jpg");
+  
+  background-size: contain;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: 100% auto;
+}
+
+.Ability_section.Ability_W
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: hsl(71, 100%, 50%);
+  border-style: solid;
+
+  padding: 8px;
+
+  margin-right: 20rem;
+  margin-bottom: 42px;
+
+  background-image: url("./assets/lol_background.jpg");
+  
+  background-size: contain;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: 100% auto;
+}
+
+.Ability_section.Ability_E
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: hsl(71, 100%, 50%);
+  border-style: solid;
+
+  padding: 8px;
+
+  margin-right: 20rem;
+  margin-bottom: 42px;
+
+  background-image: url("./assets/lol_background.jpg");
+  
+  background-size: contain;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: 100% auto;
+}
+
+.Ability_section.Ability_R
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: hsl(71, 100%, 50%);
+  border-style: solid;
+
+  padding: 8px;
+
+  margin-right: 20rem;
+  margin-bottom: 21px;
+
+  background-image: url("./assets/lol_background.jpg");
+  
+  background-size: contain;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: 100% auto;
+}
+
+
+/* **************************
+        CHAMPION SETUP
+************************** */
+
+
+/* === Difficulty === */
+
+/* Div */
+.Difficulty
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Difficulty_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Difficulty_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* === Attack === */
+
+/* Div */
+.Attack
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Attack_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Attack_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* === Defense === */
+
+/* Div */
+.Defense
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Defense_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Defense_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* === Magic === */
+
+/* Div */
+.Magic
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Magic_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Magic_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* **************************
+          STATS
+************************** */
+
+
+
+/* === Health === */
+
+/* Div */
+.Health
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Health_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Health_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* === Mana / Resource === */
+
+/* Div */
+.Resource
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Resource_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Resource_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* === Attack Damage === */
+
+/* Div */
+.Damage
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Damage_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Damage_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* === Attack Speed === */
+
+/* Div */
+.Speed
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Speed_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Speed_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* === Armor === */
+
+/* Div */
+.Armor
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Armor_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Armor_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+
+
+/* === Movment Speed === */
+
+/* Div */
+.Movement
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Movement_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Movement_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+/* === Attack Range === */
+
+/* Div */
+.Range
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* P_default */
+.Range_
+{
+  color: white;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+/* P_Spesific */
+
+.Range_text
+{
+  font-family:cursive;
+  font-weight: bolder;
+  color: red;
+}
+
+.Ability_image
+{
+  border-radius: 34px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #3b076c;
+}
+
+.Ability_image:hover
+{
+  border-color: hsl(271, 58%, 49%);
+}
+
+.Ability_image_Q
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #3b076c;
+}
+
+.Ability_image_Q:hover
+{
+  border-color: hsl(271, 58%, 49%);
+}
+
+.Ability_image_W
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #3b076c;
+}
+
+.Ability_image_W:hover
+{
+  border-color: hsl(271, 58%, 49%);
+}
+
+.Ability_image_E
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #3b076c;
+}
+
+.Ability_image_E:hover
+{
+  border-color: hsl(271, 58%, 49%);
+}
+
+.Ability_image_R
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #3b076c;
+}
+
+.Ability_image_R:hover
+{
+  border-color: hsl(271, 58%, 49%);
+}
+
+
+
+div.Selected_ability
+{
+  border-radius: 10px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: hsl(64, 98%, 66%);
+
+  padding: 4px;
+  padding-left: 8px;
+  margin-right: 20rem;
+
+  background: black;
+}
+
+.Selected_ability_description
+{
+  font-family: cursive;
+}
+
+.Selected_ability_image
+{
+  border-radius: 12px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: hsl(123, 70%, 31%);
+}
+
+.Selected_ability_image:hover
+{
+  border-color: hsl(123, 82%, 55%);
+}
